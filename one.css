@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: rgb(255, 138, 96);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+.logo{
+    width: 70px;
+}
+
+.links>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.links>a:hover{
+    border-bottom: 2px solid rgb(112, 37, 2);
+    color: brown;
+}
+
+.btn{
+    text-decoration: none;
+    background-color:rgb(112, 37, 2) ;
+    color: aliceblue;
+    padding: 6px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: black;
+    
+}
